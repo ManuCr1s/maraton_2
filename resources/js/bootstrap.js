@@ -7,6 +7,13 @@
 import axios from 'axios';
 window.axios = axios;
 
+import $ from 'jquery';
+window.$ = $;
+
+import 'bootstrap';
+import simplyCountdown from 'simplycountdown.js/dist/simplyCountdown.min.js';
+
+
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**
