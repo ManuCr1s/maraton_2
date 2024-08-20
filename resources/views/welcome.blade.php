@@ -5,7 +5,7 @@
 @section('container')
     <div class="container-fluid">
         <div class="container">
-            <div class="row justify-content-between m-0 bg-light">
+            <div class="row justify-content-between m-0">
                 <ul class="list">
                     <li class="item__list"><i class="fa-brands fa-square-facebook icon-button"></i></li>
                     <li class="item__list"><i class="fa-brands fa-tiktok icon-button"></i></li>
@@ -20,17 +20,21 @@
             <x-navs.main/>
             <x-sliders.main/>
             <div class="row">
-                <div class="col-4">
-                    <i class="fa-solid fa-clock"></i>
+                <div class="col-md-12 col-lg-6 text-body">
+                    <i class="fa-solid fa-clock icon-body"></i>
                     LA CARRERA COMIENZA:
                 </div>
-                <div class="col-8">
-                    <div id="count"></div>
+                <div class="col-sm-12 col-lg-6">
+                    <div id="count" class="d-flex"></div>
                 </div>
             </div>
             <hr>
             <div class="row justify-content-center">
-                <h5>FECHA MAXIMA DE INSCRIPCION</h5>
+                <div class="col-12">
+                    <h6 class="text-body_max">FECHA MAXIMA DE INSCRIPCION</h6>
+                    <h5 class="text-body_date">2 DE NOVIEMBRE DEL 2024</h5>
+                </div>
+                
             </div>
             <hr>
             <x-contents.level/>

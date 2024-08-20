@@ -7,10 +7,10 @@ simplyCountdown('#count', {
     minutes: 0, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
-        days: { singular: 'day', plural: 'days' },
-        hours: { singular: 'hour', plural: 'hours' },
-        minutes: { singular: 'minute', plural: 'minutes' },
-        seconds: { singular: 'second', plural: 'seconds' }
+        days: { singular: 'dia', plural: 'dias' },
+        hours: { singular: 'hora', plural: 'horas' },
+        minutes: { singular: 'minuto', plural: 'minutos' },
+        seconds: { singular: 'segundo', plural: 'segundos' }
     },
     plural: true, //use plurals
     inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
