@@ -1,17 +1,12 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <div class="row">
-            <div class="col-2">
-                <i class="fa-solid fa-person-walking"></i>
-            </div>
-            <div class="col-10">
-                <div class="row">MARATON INTERNACIONAL</div>
-                <div class="row">MESETA DEL</div>
-                <div class="row">BOMBON</div>
-                <div class="row">Noviembre 5, 2023</div>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand d-flex" href="#">
+        <i class="fa-solid fa-person-running logo__icon"></i>
+        <div class="title">
+            <div class="row title__secondary">MARATON INTERNACIONAL</div>
+            <div class="row title__main">MESETA DEL</div>
+            <div class="row title__main--main">BOMBON</div>
+            <div class="row title__secondary">NOVIEMBRE 5, 2024</div>
         </div>
-
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,8 +15,8 @@
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <div class="row">BASES</div>
-                    <div class="row">DOCUMENTOS PARA INSCRIPCION</div>
+                    <div class="row nav-link__main"><i class="fa-solid fa-square-pen pt-1 mr-2"></i>FORMULARIO</div>
+                    <div class="row nav-link__secondary">REGISTRA TU INSCRIPCION AQUI</div>
                 </a>
             </li>
         </ul>
