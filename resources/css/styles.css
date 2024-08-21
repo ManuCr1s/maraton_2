@@ -122,4 +122,58 @@
     letter-spacing: 5px;
     font-size: 25px;
 }
+/*------------------------ level menu item  ----------------------*/
+.text-table{
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.text-table_detail{
+    color: #63686a;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-table_info{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #63686a;
+}
+.icon-subtitle{
+    font-size: 18px;
+    color: #faa33d;
+    margin: 0 2% 0 0;
+}
+
+/*------------------------- level menu icon -------------------------*/
+/*------------------------- start footer ----------------------------------*/
+.main-footer{
+    color: white;
+    background-blend-mode: overlay;
+    background-image: url('../img/maratonpasco_version5.jpg');
+    background-color: #434343;   
+    background-position: center; 
+    height:30vw;
+}
+.text-footer_secondary{
+    font-size: 16px;
+    font-weight: 500;
+    color: #faa33d;
+    letter-spacing: 5px;
+}
+.text-footer_main{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.secondary-footer{
+    background-color: #252828;
+    color: #faa33d;
+    font-weight: 500;
+    letter-spacing: 5px;
+    justify-content: center;
+    font-size: 12px;
+}
+/*--------------------------- end footer ----------------------------------*/
 /*END BODY: HOME*/

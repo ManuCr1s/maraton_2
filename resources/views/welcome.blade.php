@@ -4,7 +4,7 @@
 @endsection
 @section('container')
     <div class="container-fluid">
-        <div class="container">
+        <div class="container bg-white">
             <div class="row justify-content-between m-0">
                 <ul class="list">
                     <li class="item__list"><i class="fa-brands fa-square-facebook icon-button"></i></li>
@@ -34,11 +34,18 @@
                     <h6 class="text-body_max">FECHA MAXIMA DE INSCRIPCION</h6>
                     <h5 class="text-body_date">2 DE NOVIEMBRE DEL 2024</h5>
                 </div>
-                
             </div>
             <hr>
             <x-contents.level/>
-            
+        </div>
+        <div class="row p-5 main-footer">
+            <div class="container">
+                <h5 class="text-footer_secondary">NUESTROS SON</h5>
+                <h5 class="text-footer_main">AUSPICIADORES</h5>
+            </div>
+        </div>
+        <div class="row p-3 secondary-footer">
+            <p class="m-0">© MARATON INTERNACIONAL MESETA DEL BOMBON 2024</p>
         </div>
     </div>
 @endsection
