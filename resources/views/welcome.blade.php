@@ -18,7 +18,7 @@
             </div>
             <hr class="separator">
             <x-navs.main/>
-            <x-sliders.main/>
+            <x-contents.slider/>
             <div class="row">
                 <div class="col-md-12 col-lg-6 text-body">
                     <i class="fa-solid fa-clock icon-body"></i>
