@@ -176,11 +176,4 @@
     font-size: 12px;
 }
 /*--------------------------- end footer ----------------------------------*/
-
-.nuevo{
-    background-color: rgba(140, 42, 42, 0.5); /* Cambia la opacidad y color según lo necesites */
-    z-index: -10;
-    height: 1000px;
-    background-image:url('../img/maratonpasco_version5.jpg'); 
-}
 /*END BODY: HOME*/
